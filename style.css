@@ -1,0 +1,36 @@
+html, body {
+	position: fixed;
+	background-image: radial-gradient(white, pink, pink);
+	width: 100%;
+	height: 100vh;
+}
+
+img {
+position: fixed;
+padding: 20px;
+top: 30px;
+right: 30px;
+width: 80px;
+height: 80px;
+transition: all 0.25s;
+}
+
+img:hover {
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+}
+
+canvas {
+  vertical-align: bottom;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
