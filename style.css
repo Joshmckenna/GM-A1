@@ -20,6 +20,7 @@ img:hover {
 	width: 100px;
 	height: 100px;
 	opacity: 0.5;
+	cursor: help;
 }
 
 canvas {
